@@ -1,0 +1,48 @@
+1. Gradient (DONE)
++   (DONE) gradient poziomy o 'n' krokach 
+++  (DONE) gradient poziomy o 'n' krokach dla dowolnych kolorów RGB startowych i koñcowych
+
+2. Linie i okrêgi (DONE)
++   (DONE) rysowanie linii algorytmem Bresenhama dla dowolnych dwóch punktów
+    (DONE) rysowanie okrêgu algorytmem Bresenhama w podanym punkcie o podanym promieniu
+
+++  rysowanie linii dla dowolnych dwóch punktów z antialiasingiem (wyg³adzaniem krawêdzi)
+    rysowanie okrêgu algorytmem Bresenhama w podanym punkcie o podanym promieniu
+
+3. Krzywe (DONE)
++   (DONE) rysowanie krzywej Beziera (4 punkty)
+++  rysowanie krzywej B-sklejanej (B-spline) (11 punktów)
++++ rysowanie krzywej B-sklejanej (B-spline) (dowolna liczba punktów (n>=5))
+
+4. Wype³nianie obszarów (DONE)
++   wyp³nianie obszaru za pomoc¹ algorytmu flood-fill (rekurencyjnie)
+++  (DONE) wyp³nianie obszaru za pomoc¹ algorytmu flood-fill (ze stosem)
++++ wyp³nianie obszaru za pomoc¹ algorytmu Smith'a
+
+5. Transformacje affiniczne (DONE)
++   translacja
+    rotacja wokó³ pocz¹tku uk³¹du wspó³rzêdnych
+    skalowanie wzglêdem pocz¹tku uk³adu wspó³rzêdnych
+    pochylenie
+
+++  (DONE) translacja
+    (DONE) rotacja wokó³ œrodka obrazu
+    (DONE) skalowanie wzglêdem œrodka obrazu
+    (DONE) pochylenie
+    interpolacja najbli¿szy s¹siad
+
++++ translacja
+    rotacja wokó³ œrodka obrazu
+    skalowanie wzglêdem œrodka obrazu
+    pochylenie
+    interpolacja biliniowa
+
+Zaliczenie na 3:
+- wszystkie zagadnienia na +
+
+Zaliczenie na 4:
+- wszystkie zagadnienia na ++
+
+Zaliczenie na 5:
+- wszystkie zagadnienia tylko na ++ (1,2)
+- wszystkie zagadnienia na +++ (3,4,5)
